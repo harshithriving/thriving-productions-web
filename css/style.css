@@ -1473,6 +1473,17 @@ a.project-badge:hover {
   justify-content: center;
   font-weight: 700;
   font-family: var(--font-heading);
+  object-fit: cover;
+  overflow: hidden;
+}
+
+img.test-avatar,
+.test-avatar img {
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
 }
 
 /* ==========================================================================
